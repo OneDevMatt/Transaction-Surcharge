@@ -26,7 +26,7 @@ namespace Bank_Transaction_Calculator
             }
             var transferCharge = CalculatorFunctions.CalculateTransactionFee(transaction, feeConfig);
             var transferAmount = transaction - transferCharge;
-            Console.WriteLine($"Amount: {transaction} \nTransfer Amount: {transferAmount} \nCharge: {transferCharge} \nDebit Amount (Transfer Amount + Charge): {transaction} . \nThank you for banking with us");
+            Console.WriteLine($"Amount: {transaction} \nTransfer Amount: {transferAmount} \nCharge: {transferCharge} \nDebit Amount (Transfer Amount + Charge): {transaction} \nThank you for banking with us");
 
             Console.ReadLine();
         } 

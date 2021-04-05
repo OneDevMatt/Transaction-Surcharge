@@ -2,7 +2,7 @@
 
 namespace Bank_Transaction_Calculator
 {
-    public class CalculatorFunctions
+    public static class CalculatorFunctions
     {
         public static decimal CalculateTransactionFee(decimal amount, List<Fee> feesConfig)
         {
